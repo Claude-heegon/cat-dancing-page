@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 32px 16px 48px;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #c96b6b;
+  margin-bottom: 32px;
+  text-shadow: 2px 3px 0 rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 2.8rem;
+  }
+}

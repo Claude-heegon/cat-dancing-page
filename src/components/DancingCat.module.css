@@ -1,0 +1,55 @@
+@import '../styles/animations.css';
+
+.scene {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.catWrapper {
+  position: relative;
+  display: inline-block;
+  will-change: transform;
+}
+
+.dancing {
+  animation: dance 0.8s ease-in-out infinite;
+}
+
+.body {
+  will-change: transform;
+}
+
+.bodyBounce {
+  animation: bodyBounce 0.8s ease-in-out infinite;
+}
+
+.catImage {
+  width: 180px;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.15));
+}
+
+.shadow {
+  width: 120px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  margin-top: 4px;
+  filter: blur(4px);
+}
+
+.shadowAnim {
+  animation: shadowPulse 0.8s ease-in-out infinite;
+}
+
+@media (max-width: 480px) {
+  .catImage {
+    width: 130px;
+  }
+  .shadow {
+    width: 88px;
+  }
+}

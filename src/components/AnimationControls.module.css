@@ -1,0 +1,59 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.btn {
+  padding: 14px 40px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  letter-spacing: 0.03em;
+  will-change: transform;
+}
+
+.btn:hover {
+  transform: scale(1.07);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.play {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  color: white;
+  box-shadow: 0 6px 20px rgba(253, 160, 133, 0.55);
+}
+
+.stop {
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  color: white;
+  box-shadow: 0 6px 20px rgba(161, 140, 209, 0.5);
+}
+
+.hint {
+  font-size: 1rem;
+  color: #c96b6b;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  animation: fadeInOut 1.6s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0.5; }
+  50%       { opacity: 1; }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    padding: 12px 32px;
+    font-size: 1rem;
+  }
+}

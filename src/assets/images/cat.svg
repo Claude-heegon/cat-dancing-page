@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" width="200" height="280">
+  <!-- 꼬리 -->
+  <path class="tail" d="M 100 230 Q 160 210 170 160 Q 175 130 155 120" stroke="#f4a261" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+  <!-- 몸통 -->
+  <ellipse cx="100" cy="190" rx="60" ry="55" fill="#f4a261"/>
+
+  <!-- 목 -->
+  <rect x="82" y="130" width="36" height="30" rx="10" fill="#f4a261"/>
+
+  <!-- 머리 -->
+  <ellipse cx="100" cy="110" rx="50" ry="45" fill="#f4a261"/>
+
+  <!-- 왼쪽 귀 (바깥) -->
+  <polygon points="58,75 45,30 80,65" fill="#f4a261"/>
+  <!-- 왼쪽 귀 (안쪽) -->
+  <polygon points="62,70 52,42 76,65" fill="#ff9a9e"/>
+
+  <!-- 오른쪽 귀 (바깥) -->
+  <polygon points="142,75 155,30 120,65" fill="#f4a261"/>
+  <!-- 오른쪽 귀 (안쪽) -->
+  <polygon points="138,70 148,42 124,65" fill="#ff9a9e"/>
+
+  <!-- 얼굴 무늬 -->
+  <ellipse cx="100" cy="115" rx="35" ry="30" fill="#fde2b5"/>
+
+  <!-- 눈 왼쪽 -->
+  <ellipse cx="82" cy="100" rx="9" ry="10" fill="white"/>
+  <ellipse cx="82" cy="101" rx="5" ry="7" fill="#333"/>
+  <ellipse cx="84" cy="98" rx="2" ry="2" fill="white"/>
+
+  <!-- 눈 오른쪽 -->
+  <ellipse cx="118" cy="100" rx="9" ry="10" fill="white"/>
+  <ellipse cx="118" cy="101" rx="5" ry="7" fill="#333"/>
+  <ellipse cx="120" cy="98" rx="2" ry="2" fill="white"/>
+
+  <!-- 코 -->
+  <ellipse cx="100" cy="116" rx="5" ry="4" fill="#ff9a9e"/>
+
+  <!-- 입 -->
+  <path d="M 100 120 Q 90 128 85 124" stroke="#c96b6b" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 100 120 Q 110 128 115 124" stroke="#c96b6b" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- 수염 왼쪽 -->
+  <line x1="55" y1="115" x2="90" y2="118" stroke="#c96b6b" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="52" y1="122" x2="88" y2="122" stroke="#c96b6b" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="55" y1="129" x2="90" y2="126" stroke="#c96b6b" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- 수염 오른쪽 -->
+  <line x1="145" y1="115" x2="110" y2="118" stroke="#c96b6b" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="148" y1="122" x2="112" y2="122" stroke="#c96b6b" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="145" y1="129" x2="110" y2="126" stroke="#c96b6b" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- 왼쪽 앞발 -->
+  <ellipse cx="65" cy="240" rx="18" ry="14" fill="#f4a261"/>
+  <ellipse cx="56" cy="244" rx="7" ry="5" fill="#fde2b5"/>
+  <ellipse cx="65" cy="247" rx="7" ry="5" fill="#fde2b5"/>
+  <ellipse cx="74" cy="244" rx="7" ry="5" fill="#fde2b5"/>
+
+  <!-- 오른쪽 앞발 -->
+  <ellipse cx="135" cy="240" rx="18" ry="14" fill="#f4a261"/>
+  <ellipse cx="126" cy="244" rx="7" ry="5" fill="#fde2b5"/>
+  <ellipse cx="135" cy="247" rx="7" ry="5" fill="#fde2b5"/>
+  <ellipse cx="144" cy="244" rx="7" ry="5" fill="#fde2b5"/>
+
+  <!-- 배 무늬 -->
+  <ellipse cx="100" cy="195" rx="35" ry="38" fill="#fde2b5"/>
+
+  <!-- 배꼽 -->
+  <ellipse cx="100" cy="205" rx="5" ry="3" fill="#f4a261"/>
+</svg>
